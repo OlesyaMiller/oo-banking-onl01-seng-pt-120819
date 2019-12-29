@@ -25,6 +25,7 @@ class Transfer
       self.receiver.status = "closed"
     else 
       self.status = "rejected"
+      return 
     end
   end
 end
