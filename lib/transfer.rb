@@ -18,7 +18,7 @@ class Transfer
     if  valid?
       
     else 
-      self.
+      self.status = "rejected"
     end
   end
 end
