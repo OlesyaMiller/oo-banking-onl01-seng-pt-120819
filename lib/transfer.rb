@@ -22,7 +22,7 @@ class Transfer
       self.receiver.balance += self.amount
       self.status = "complete"
       self.sender.status = "closed"
-      self.reciever.status = "closed"
+      self.receiver.status = "closed"
     else 
       self.status = "rejected"
     end
