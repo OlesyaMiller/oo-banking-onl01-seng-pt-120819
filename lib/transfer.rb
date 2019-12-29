@@ -24,8 +24,8 @@ class Transfer
       self.sender.status = "closed"
       self.receiver.status = "closed"
     else 
-      return "Transaction rejected. Please check your account balance."
       self.status = "rejected"
+      puts "Transaction rejected. Please check your account balance."
     end
   end
 end
